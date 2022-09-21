@@ -1,0 +1,234 @@
+.hero-content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero-content span {
+  border-top: 2px solid white;
+  font-size: 200%;
+}
+.hero-content h4 {
+  font-size: 250%;
+}
+
+.hero-class {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Assets/img/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.arrow-down {
+  position: relative;
+  color: white;
+  -webkit-animation: downup 3s;
+          animation: downup 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes downup {
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes downup {
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.aboutme-class {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Assets/img/bg5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme-content h3 {
+  text-align: center;
+}
+
+.aboutme-container {
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: black;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px;
+}
+
+.flex-container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+@media only screen and (max-width: 670px) {
+  .flex-container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.content-text {
+  margin: 20px;
+}
+@media only screen and (max-width: 375px) {
+  .content-text {
+    margin: 0px !important;
+    font-size: 12px;
+  }
+}
+
+.content-img {
+  margin: 20px;
+}
+@media only screen and (max-width: 375px) {
+  .content-img {
+    margin: 0px !important;
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero-content span {
+    border-top: 2px solid white;
+    font-size: 120%;
+  }
+  .hero-content h4 {
+    font-size: 170%;
+  }
+}
+
+.myskill-class {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../Assets/img/bg6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-col {
+  justify-content: center;
+  align-items: center;
+}
+
+navbar-container .navbar-hero {
+  margin: 5px;
+}
+
+.navbar-container {
+  border-radius: 200px;
+  margin: 0px 20px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 15px;
+  background-color: white;
+  box-shadow: 3px;
+  z-index: 5;
+}
+.navbar-container a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  padding-left: 3px;
+  padding: 5px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.navbar-container a:hover {
+  color: black;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-center {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navbar-center svg {
+  margin: 5px;
+  width: 20px;
+}
+@media only screen and (max-width: 550px) {
+  .navbar-center {
+    display: none;
+  }
+}
+
+.navbar-onclick {
+  display: none !important;
+}
+@media only screen and (max-width: 710px) {
+  .navbar-onclick {
+    display: block !important;
+  }
+}
+
+.navbar-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.navbar-end a:hover {
+  background-color: black;
+  color: white;
+}
+.navbar-end svg {
+  width: 20px;
+  margin: 5px;
+}
+@media only screen and (max-width: 710px) {
+  .navbar-end {
+    display: none;
+  }
+}
+
+.footer-class {
+  text-align: center;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.footer-class svg {
+  color: black;
+  margin: 10px 20px;
+}
+.footer-class svg:hover {
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
