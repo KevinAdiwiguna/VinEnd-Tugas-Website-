@@ -115,9 +115,9 @@
 .center-col {
   justify-content: center;
   align-items: center;
-}navbar-container
-.navbar-hero {
-    margin: 5px;
+}
+navbar-container .navbar-hero {
+  margin: 5px;
 }
 .navbar-container {
   border-radius: 200px;
@@ -174,7 +174,6 @@
   align-items: center;
   margin: 5px;
 
-
   a:hover {
     background-color: black;
     color: white;
@@ -188,22 +187,19 @@
     display: none;
   }
 }
-.footer-class {
-    text-align: center;
-    display: flex;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
+.footer-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content-svg {
+  justify-content: center;
+  text-align: center;
+  display: flex;
 
-    svg {
-        color: black;
-        margin: 10px 20px;
-        
-        &:hover {
-            background-color: black;
-            border-radius: 100%;
-            color: white;
-        }
-    }
-    
+  svg {
+    margin: 5px;
+    width: 30px;
+  }
 }

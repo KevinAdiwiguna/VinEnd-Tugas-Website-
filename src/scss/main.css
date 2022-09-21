@@ -216,19 +216,19 @@ navbar-container .navbar-hero {
   }
 }
 
-.footer-class {
+.footer-container {
   text-align: center;
   display: flex;
-  background-color: white;
   justify-content: center;
   align-items: center;
 }
-.footer-class svg {
-  color: black;
-  margin: 10px 20px;
+
+.footer-content-svg {
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
-.footer-class svg:hover {
-  background-color: black;
-  border-radius: 100%;
-  color: white;
+.footer-content-svg svg {
+  margin: 5px;
+  width: 30px;
 }/*# sourceMappingURL=main.css.map */
