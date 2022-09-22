@@ -78,6 +78,43 @@
   margin: 20px;
 }
 
+.img-scroll-active {
+  opacity: 100% !important;
+}
+
+.img-scroll {
+  transition-duration: 4s;
+  opacity: 0%;
+}
+
+.content-text-active {
+  opacity: 1 !important;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.content-text {
+  opacity: 0;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  margin: 20px;
+}
+@media only screen and (max-width: 375px) {
+  .content-text {
+    margin: 0px !important;
+    font-size: 12px;
+  }
+}
+.content-text h4 {
+  display: block;
+}
+.content-text p {
+  display: block;
+}
+.content-text table {
+  display: block;
+}
+
 .flex-container {
   justify-content: space-between;
   align-items: center;
@@ -90,16 +127,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-}
-
-.content-text {
-  margin: 20px;
-}
-@media only screen and (max-width: 375px) {
-  .content-text {
-    margin: 0px !important;
-    font-size: 12px;
   }
 }
 
@@ -130,6 +157,12 @@
   background-size: cover;
   background-attachment: fixed;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myskill-content {
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -185,6 +218,21 @@ navbar-container .navbar-hero {
   .navbar-center {
     display: none;
   }
+}
+
+.btn-dokumentasi {
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 10px;
+  outline-color: #13CB6E;
+  outline-style: solid;
+  border-radius: 100px;
+  color: black;
+  transition-duration: 0.5s;
+}
+.btn-dokumentasi:hover {
+  background-color: #0F897E;
+  color: white;
 }
 
 .navbar-onclick {
