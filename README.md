@@ -5,14 +5,14 @@ Nama: Ida Bagus Kevin Adiwiguna
 Kelas: XI RPL 1
 Absen: 10
 
-#Technology
+---Technology---
 HTML
 CSS
 SCSS
 
-#Text-Editor
+---Text-Editor---
 Visual Stdudio Code
 
-#framework
+---framework---
 Bootstrap
 AOS
