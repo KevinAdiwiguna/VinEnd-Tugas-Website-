@@ -100,7 +100,7 @@
 }
 
 .content-text {
-  opacity: 0;
+  opacity: 1;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
   margin: 20px;
